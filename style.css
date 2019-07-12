@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 18px;
+  font-size: 10px;
 }
 body {
   color: rgb(35, 35, 35);
@@ -42,4 +42,64 @@ body {
 .wrapper:hover h1 {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   transform: rotateZ(-2deg) translate(-0.5rem) scale(1.01);
+}
+.converter-wrap {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* UTILITIES */
+
+.u-text-center {
+  text-align: center;
+}
+.u-margin-top-xs {
+  margin-top: 1rem;
+}
+.u-margin-top-sm {
+  margin-top: 2rem;
+}
+
+.u-margin-top-md {
+  margin-top: 4rem;
+}
+
+.u-margin-top-lg {
+  margin-top: 6rem;
+}
+
+.u-margin-top-xl {
+  margin-top: 8rem;
+}
+
+.u-margin-bottom-xs {
+  margin-bottom: 1rem;
+}
+
+.u-margin-bottom-sm {
+  margin-bottom: 2rem;
+}
+
+.u-margin-bottom-md {
+  margin-bottom: 4rem;
+}
+
+.u-margin-bottom-lg {
+  margin-bottom: 6rem;
+}
+
+.u-margin-bottom-xl {
+  margin-bottom: 8rem;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 4.2rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  transition: all 1s ease;
 }

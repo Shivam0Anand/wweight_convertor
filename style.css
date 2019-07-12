@@ -1,0 +1,45 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 18px;
+}
+body {
+  color: rgb(35, 35, 35);
+  background: #ff416c;
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  box-sizing: border-box;
+}
+
+/* Layout */
+
+.container {
+  max-width: 96rem;
+  padding: 0 2rem;
+  margin: 0 auto;
+}
+.wrapper {
+  background-color: #fff;
+  padding: 4rem 0;
+  margin: 4rem 0;
+  border-radius: 5px;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+  transform: skew(-10deg);
+  transition: all 0.3s ease;
+}
+.wrapper > * {
+  transform: skewX(10deg);
+}
+.wrapper:hover {
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-0.5rem) skewX(-10deg) scale(1.01);
+}
+.wrapper:hover h1 {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transform: rotateZ(-2deg) translate(-0.5rem) scale(1.01);
+}
